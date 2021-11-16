@@ -11,7 +11,7 @@ $ wget -O onnxruntime-1.9.1-cp37-none-linux_armv7l.whl https://github.com/PINTO0
 
 $ pip3 install onnxruntime-1.9.1-cp37-none-linux_armv7l.whl
 ```
-## 3. onnxruntime build
+## 3. onnxruntime build - Cross-compile
 On **`x86_64`** host machine.
 ```bash
 git clone -b v1.9.1 https://github.com/microsoft/onnxruntime
