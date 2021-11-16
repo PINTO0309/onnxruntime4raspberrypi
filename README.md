@@ -5,7 +5,12 @@ $ wget -O onnxruntime-1.9.1-cp37-none-linux_armv7l.whl https://github.com/PINTO0
 
 $ pip3 install onnxruntime-1.9.1-cp37-none-linux_armv7l.whl
 ```
+## 2. For Numpy1.21.4
+```bash
+$ wget -O onnxruntime-1.9.1-cp37-none-linux_armv7l.whl https://github.com/PINTO0309/onnxruntime4raspberrypi/releases/download/v1.9.1/onnxruntime-1.9.1-cp37-none-linux_armv7l.whl_np1214
 
+$ pip3 install onnxruntime-1.9.1-cp37-none-linux_armv7l.whl
+```
 ## 3. onnxruntime build
 ```bash
 git clone -b v1.9.1 https://github.com/microsoft/onnxruntime
