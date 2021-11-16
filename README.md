@@ -42,9 +42,11 @@ cd /workdir
 ```
 ```bash
 apt update && apt upgrade -y
-apt install -y protobuf-compiler libcurl4-openssl-dev libatlas-base-dev
 mv /usr/bin/python /usr/bin/python_
 ln -s /usr/bin/python3 /usr/bin/python
+
+apt install -y protobuf-compiler libcurl4-openssl-dev \
+libatlas-base-dev git wget make python3-pip
 
 pip3 install cmake numpy==1.19.5
 or
