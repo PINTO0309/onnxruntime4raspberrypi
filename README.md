@@ -66,3 +66,9 @@ pip3 install cmake numpy==1.21.4
 --parallel $(nproc) \
 --skip_tests
 ```
+## 4. Test failed
+### v1.9.1
+- Performance improvement on ARM
+  - Added S8S8 (signed int8, signed int8) matmul kernel. This avoids extending uin8 to int16 for better performance on ARM64 without dot-product instruction
+  - Expanded GEMM udot kernel to 8x8 accumulator
+  - Added sgemm and qgemm optimized kernels for ARM64EC
