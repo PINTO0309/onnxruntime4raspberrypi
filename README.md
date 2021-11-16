@@ -57,6 +57,6 @@ pip3 install cmake numpy==1.21.4
 --arm \
 --enable_pybind \
 --build_wheel \
---parallel 2 \
+--parallel $(nproc) \
 --skip_tests
 ```
